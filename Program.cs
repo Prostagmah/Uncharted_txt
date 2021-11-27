@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Uncharted_Drake_s_Fortune
 {
@@ -12,115 +13,169 @@ namespace Uncharted_Drake_s_Fortune
             if ((start == "Да") || (start == "да") || (start == "Yes") || (start == "yes") || (start == "YES") || (start == "ДА"))
             {
                 Console.WriteLine("Отлично!, мы начинаем!");
+                Thread.Sleep(1000);
                 Console.WriteLine("И так, история Нейта начинается");
+                Thread.Sleep(1000);
                 Console.WriteLine("У всякого великого деяния есть начало, но лишь пройдя путь до конца, можно обрести истинную славу. Сэр Френсис Дрейк - 1587");
+                Thread.Sleep(1500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Мы находимся у берегов Панамы, где был предположительно обнаружен гроб Легендарного море плавателя Сэра френсиса Дрейка, похороненного в море больше четырёх веков назад." +
                     "Скажите, а вас не смущает такое надругательство над останками предка?"); // Диалог между Нейтом и Еленой.
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine("Звучит двусмысленно! Ха-ха-ха..." +
                     "И вы же мне вроде не верили.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Ну, да, я навела кое-какие справки." +
                     "И на сколько мне известно, Френсис Дрейк не оставил потомков");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine("Ну, историки могут ошибаться. И нельзя..." +
                     "...Надругаться над тем, чего нет");
+                Thread.Sleep(2500);
                 Console.WriteLine("Нейт открыл гроб Френсиса");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Обалдеть...");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine("Вот хитрюга... *Доставая из гроба дневник*");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Что там? Ну-ка, покажите...");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine("Нет-нет, ещё чего. *Закрывая дневник и закрывая рукой камеру Елены*" +
                     "Уговор был только на гроб. И всё.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Одну минуточку!" +
                     "Моя программа оплатила эту экспедицию,без нас вы...");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
-                Console.WriteLine("Эй-эй-эй" +
-                    "Вы же получили свой сюжет");
+                Console.WriteLine("Эй-эй-эй");
+                Console.WriteLine("Вы же получили свой сюжет.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
-                Console.WriteLine("Нет, мистер Дрейк, вы подписали контракт." +
-                    "И я имею право видеть всё, что вы тут...");
-                Console.WriteLine("Натан:" + "Воу-воу-воу..." + "Давайте это потом..." + "Салли! У нас проблемы. Давай скорей." + "Елена:" + "Так, так, а что там случилось? *Подбигая к Нейту*" + "Э-э... Пираты." + "Елена:" + "Пираты!?" + "Натан:" + "Да. Современные. Эти пленных не берут. *Достаёт пистолет*");
+                Console.WriteLine("Нет, мистер Дрейк, вы подписали контракт.");
+                Console.WriteLine("И я имею право видеть всё, что вы тут...");
+                Thread.Sleep(1500);
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                Console.WriteLine("Натан:");
+                Console.ResetColor();
+                Console.WriteLine("Воу-воу-воу...");
+                Thread.Sleep(2500);
+                Console.WriteLine("Давайте это потом...");
+                Thread.Sleep(2500);
+                Console.WriteLine("Салли! У нас проблемы. Давай скорей.");
+                Thread.Sleep(2500);
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine("Елена:");
+                Console.ResetColor();
+                Console.WriteLine("Так, так, а что там случилось? *Подбигая к Нейту*");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                Console.WriteLine("Натан:");
+                Console.ResetColor();
+                Console.WriteLine("Э-э... Пираты.");
+                Thread.Sleep(2500);
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine("Елена:");
+                Console.ResetColor();
+                Console.WriteLine("Пираты!?");
+                Thread.Sleep(2500);
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                Console.WriteLine("Натан:");
+                Console.ResetColor();
+                Console.WriteLine("Да. Современные. Эти пленных не берут. *Достаёт пистолет*");
                 Console.WriteLine("Ну по крайнеё мере мужчин не берут.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Стоп...вы о чём вообще говорите...");
                 Console.WriteLine("К короблю подплывют пираты.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Может, нам вызвать береговую охрану?");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine(" По идее надо бы, но у нас у самих нет разрешения тут находиться.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Чего?");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine("Да, так, что если не хотите в панамскую тюрьму, придётся разбираться с ними самим.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("А что хуже?");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine("Да, вы явно не были в панамской тюрьме." +
                     "Стрелять-то хоть умеете? *Кидая пистолет Елене*");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Ну, это как камера?" +
                     "Просто... наводишь и жмёшь, да?");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine("Всё так и есть." +
                     "Поехали.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("Как они вообще здесь нас нашли?.");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
                 Console.WriteLine("Они давно за мной охотятся, я думал отстали");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Елена:");
                 Console.ResetColor();
                 Console.WriteLine("И чем вы их так разозлили?");
+                Thread.Sleep(2500);
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("Натан:");
                 Console.ResetColor();
@@ -140,8 +195,13 @@ namespace Uncharted_Drake_s_Fortune
                     {
                         case "Плыть":
                         case "плыть":
-                            Console.WriteLine("Пока вы пытались подплыть к пиратам, они попали тебе в указательный палец правой руки и ты погиб!"); // Для тех кто не понял, почему он умер от выстрела в палец, в Uncharted есть система "Удачи" и по ней, вы умираете от любого попадания.
-                            Console.WriteLine("Елена: Нет, Неееееейт!");
+                            Console.WriteLine("Пока вы пытались подплыть к пиратам, они попали тебе в указательный палец правой руки и ты ");
+                            Console.ForegroundColor = ConsoleColor.DarkRed;
+                            Console.WriteLine("погиб!"); // Для тех кто не понял, почему он умер от выстрела в палец, в Uncharted есть система "Удачи" и по ней, вы умираете от любого попадания.
+                            Console.ForegroundColor = ConsoleColor.DarkGreen;
+                            Console.WriteLine("Елена:");
+                            Console.ResetColor();
+                            Console.WriteLine("Нет, Неееееейт!");
                             Console.ForegroundColor = ConsoleColor.DarkRed;
                             Console.WriteLine("                                              GAME OVER");
                             break;
